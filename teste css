@@ -1,0 +1,223 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+      font-family: sans-serif;
+      padding: 0;
+      margin: 0;
+      text-align: justify;
+    }
+    /*parte do menu*/
+    nav{
+      position: fixed;
+      padding: 9px 9px 6px 9px;
+      position: fixed;
+      top: 0;
+      width: 99%;
+      z-index: 999;
+      background-color: #e0e1e2;
+      border: 3px groove;
+      border-radius: 6px;
+      opacity: 0.5;
+      
+   }
+    nav a {
+      text-decoration: none;
+      margin: 20px 33px 23px 33px;
+      color:#333;
+    }
+    nav:hover>:not(:hover){
+      opacity: .4;
+      transform: scale(0.9);
+    }
+    
+ .pp{
+   width: 35px;
+   transition: .35s;
+      cursor:pointer;
+ }
+    /*parte da cabeça do site*/
+    header{
+      background-image: url('/ti.jpg');
+      background-size: cover;
+         padding-bottom: 40px;
+         padding-top: 70%;
+    }
+    span{
+      position: absolute;
+      font-weight: 600;
+      color: #EDAC06;
+      margin-left:10px;
+    }
+        #tal{
+          font-size: 500%;
+      margin-top: 100px;
+      margin-bottom: 70px;
+      /*degradê nas letras*/
+      background: linear-gradient(to left, red, yellow);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    
+    #text{
+      margin-bottom: 90%;
+          animation: fo 2s ease forwards;
+    }
+    
+    #paragrafo-1{
+   font-size:120%;
+      color: rgb(232,234,234);
+    }
+    
+    #projetos{
+      
+    }
+    /*slides trocando */
+    .slider{
+      width: 95%;
+      max-width: 400px;
+      height: 200px;
+      overflow: hidden;
+      border: 5px solid #fff;
+      border-radius: 10%;
+      margin: 0% 30% 50% 2%;
+      position: relative;
+      display: grid;
+      justify-items: center;
+    }
+    .slides{
+      display:flex;
+      width: 400px;
+      animation:slide 7s infinite ;
+    }
+    .slide{
+      width:100%;
+      flex-shrink: 0;
+    }
+    .slide img{
+      width:100%;
+      height: auto;
+      object-fit: cover;
+    }
+    @keyframes slide{
+      0% { transform: translateX(0%); }
+          25% { transform: translateX(0%); }
+              30% { transform: translateX(-100%); }
+                  55% { transform: translateX(-100%); }
+                      60% { transform: translateX(-200%); }
+                          85% { transform: translateX(-200%); }
+                              90% { transform: translateX(-300%); }
+                      100% { transform: translateX(-300%); }            
+    }
+    .jp{
+      position: absolute;
+      padding: 0%;
+    }
+    .titulo_Projetos{
+      text-align: center;
+      margin: 20% 30% 0% 30%;
+      padding: 1px;
+      border:20px solid  #fff;
+      border-radius:60%;
+      background: #e4e8e9;
+      opacity:90%;
+      box-shadow:rgba(119,119,119);
+    }
+    .letras{
+      
+      border: 100%;
+      font-size:180%;
+      text-align:center;
+      margin: 20%;
+      font-family:castellar ;
+      color:#e4e2de;
+      
+    }
+    /*serviços da minha empresa*/
+    h3 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .tabela-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #2c3e50;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+
+    .observacoes {
+      margin-top: 20px;
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      th {
+        position: sticky;
+        top: 0;
+        background-color: #2c3e50;
+        padding: 10px;
+        color: #fff;
+      }
+
+      td {
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr {
+        margin-bottom: 15px;
+      }
+    }
+    
+    #oi{
+      text-align: center;
+      background: #11a3c7ff;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 200px;
+      margin:0px;
+    }
+    
+    /*rodapé*/
+footer{
+  background-color: ##fefefe;
+  margin-bottom: 0;
+}
+#roda{
+  opacity: 0.5;
+}
