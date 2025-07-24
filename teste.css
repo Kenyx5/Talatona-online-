@@ -39,7 +39,7 @@ body{
  }
     /*parte da cabeça do site*/
     header{
-      background-image: url('/ti.jpg');
+      background-image: url('/ti.jpg') !impotant;
       background-size: cover;
          padding-bottom: 40px;
          padding-top: 70%;
