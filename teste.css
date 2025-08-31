@@ -221,3 +221,8 @@ footer{
 #roda{
   opacity: 0.5;
 }
+@media screen and(min-widith:768px){
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
