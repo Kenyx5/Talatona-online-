@@ -81,8 +81,10 @@ body{
       overflow: hidden;
       border: 5px solid #fff;
       border-radius: 10%;
+      margin: 0% 30% 50% 2%;
       position: relative;
-      
+      display: grid;
+      justify-items: center;
     }
     .slides{
       display:flex;
@@ -92,8 +94,6 @@ body{
     .slide{
       width:100%;
       flex-shrink: 0;
-
-
     }
     .slide img{
       width:100%;
