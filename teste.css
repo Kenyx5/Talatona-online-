@@ -94,6 +94,7 @@ body{
       flex-shrink: 0;
 display: flex;
   justify-content: center;
+align-itens:center;
 
     }
     .slide img{
