@@ -82,8 +82,7 @@ body{
       border: 5px solid #fff;
       border-radius: 10%;
       position: relative;
-      display: flex;
-  justify-content: center;
+      
     }
     .slides{
       display:flex;
@@ -93,6 +92,9 @@ body{
     .slide{
       width:100%;
       flex-shrink: 0;
+display: flex;
+  justify-content: center;
+
     }
     .slide img{
       width:100%;
