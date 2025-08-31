@@ -75,13 +75,12 @@ body{
     }
     /*slides trocando */
     .slider{
-      width: 95©;
+      width: 95%;
       max-width: 400px;
       height: 200px;
       overflow: hidden;
       border: 5px solid #fff;
       border-radius: 10%;
-      margin: 0% 30% 50% 2%;
       position: relative;
       display: flex;
       justify-content: center;
